@@ -47,3 +47,5 @@ try {
 } catch (error) {
   console.error(error.name + ': ' + error.message);
 }
+
+module.exports = evalString;
